@@ -33,6 +33,17 @@ body {
 }
 
 
+/* .transition-fade {
+    opacity: 1;
+    transition: 500ms;
+} */
+
+
+/* html.is-animating .transition-fade {
+    opacity: 0;
+} */
+
+
 /* body {
     background-image: url(../images/milky-way.jpg);
     background-size: 100%;
