@@ -40,7 +40,7 @@ body {
 
 .slidershow {
     width: 700px;
-    height: 400px;
+    height: 700px;
     overflow: hidden;
 }
 
@@ -65,7 +65,7 @@ body {
     border: 2px solid #fff;
     margin: 6px;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 1s;
 }
 
 .bar:hover {
@@ -129,12 +129,63 @@ input[name="r"] {
     margin-left: -80%;
 }
 
-#r9:checked~.s1 {
-    margin-left: -80%;
-}
-
 #r10:checked~.s1 {
     margin-left: -90%;
+}
+
+.auto-navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.auto-navigation div {
+    transition: 0.4s;
+}
+
+
+/* .auto-navigation div:not(:last.child){} */
+
+#r1:checked~.auto-navigation autobar1 {
+    margin-left: 0;
+}
+
+#r2:checked~.auto-navigation autobar2 {
+    margin-left: 0;
+}
+
+#r3:checked~.auto-navigation autobar3 {
+    margin-left: 0;
+}
+
+#r4:checked~.auto-navigation autobar4 {
+    margin-left: 0;
+}
+
+#r5:checked~.auto-navigation autobar5 {
+    margin-left: 0;
+}
+
+#r6:checked~.auto-navigation autobar6 {
+    margin-left: 0;
+}
+
+#r7:checked~.auto-navigation autobar7 {
+    margin-left: 0;
+}
+
+#r8:checked~.auto-navigation autobar8 {
+    margin-left: 0;
+}
+
+#r9:checked~.auto-navigation autobar9 {
+    margin-left: 0;
+}
+
+#r10:checked~.auto-navigation autobar10 {
+    margin-left: 0;
 }
 
 
